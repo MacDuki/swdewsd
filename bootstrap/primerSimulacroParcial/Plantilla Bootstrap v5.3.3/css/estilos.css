@@ -1,0 +1,113 @@
+/* Colores */
+:root {
+    --color-rosa-fucsia: #d90a59;
+    --color-verde-piedra: #285873;
+    --color-gris-celeston: #c9d3d9;
+    --color-blanco: rgb(255, 255, 255);
+    --color-negro: rgb(22, 22, 22);
+  }
+  
+  /* Alturas */
+  :root {
+    --altura-portada: 70vh;
+    --altura-news: 70vh;
+  }
+  
+  /* Tamaños de textos */
+  :root {
+    --texto-estandar: 1em; /* Estándar de acuerdo a jerarquía semántica */
+    --texto-footer: 0.8rem; /* Texto del footer */
+  }
+  
+  /* Bordes */
+  :root {
+    --borde-nav-mobile: 2px; /* Borde superior del nav en mobile */
+    --borde-campos-form: 1px; /* Borde campos del form */
+  }
+  
+  /* Sombras */
+  :root {
+    --sombra-textos-portada: 0 1px 0 rgba(0, 0, 0, 0.5); /* Textos de Portada */
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  .logoContainer {
+    width: 200px;
+   }
+   .logoContainer img {
+    width: 200px;
+   }
+   .listNavContainer {
+    list-style: none;
+    color: var(--color-rosa-fucsia);
+    text-transform: uppercase;
+    font-weight: 900;
+
+   }
+   .nav{
+    height: 60px;
+    background-color: var(--color-blanco);
+   }
+   .header {
+    background-image: url('/bootstrap/primerSimulacroParcial/Plantilla Bootstrap v5.3.3/materiales/img/hero.png');
+    color: var(--color-blanco);
+    height: var(--altura-portada);
+    background-position: 0% 40%;
+   }
+   .header h1 {
+    text-shadow: var(--sombra-textos-portada);
+   }
+   .header p {
+    text-shadow: var(--sombra-textos-portada);
+   }
+
+   .main {
+    min-height: 60vh;
+   }
+   .main p {
+    height: 5rem;
+   }
+
+  /* Small (SM) */
+  @media (max-width: 767px) {
+    nav {
+        height: 8rem;
+        z-index: 100;
+    }
+    .logoContainer {
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+        border-bottom: 2px solid var(--color-gris-celeston);
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .listNavContainer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 50%;
+    }
+    .header {
+        margin-top: 5rem;
+    }
+  }
+  
+  /* Medium (MD) */
+  @media (min-width: 768px) {
+    /* Aquí puedes agregar estilos específicos para pantallas medianas */
+  }
+  
+  /* Large (LG) */
+  @media (min-width: 992px) {
+    /* Aquí puedes agregar estilos específicos para pantallas grandes */
+  }
+  
+  /* Extra large (XL) */
+  @media (min-width: 1200px) {
+   
+  }  
