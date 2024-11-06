@@ -1,0 +1,31 @@
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\bin\Debug\net8.0\appsettings.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\bin\Debug\net8.0\testing Front.staticwebassets.runtime.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\bin\Debug\net8.0\testing Front.exe
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\bin\Debug\net8.0\testing Front.deps.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\bin\Debug\net8.0\testing Front.runtimeconfig.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\bin\Debug\net8.0\testing Front.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\bin\Debug\net8.0\testing Front.pdb
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.AssemblyInfoInputs.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.AssemblyInfo.cs
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.csproj.CoreCompileInputs.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.RazorAssemblyInfo.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.RazorAssemblyInfo.cs
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.sourcelink.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\staticwebassets\msbuild.testing Front.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\staticwebassets\msbuild.build.testing Front.props
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.testing Front.props
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.testing Front.props
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\scopedcss\bundle\testing Front.styles.css
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\scopedcss\projectbundle\testing Front.bundle.scp.css
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\refint\testing Front.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.pdb
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\testing Front.genruntimeconfig.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front\obj\Debug\net8.0\ref\testing Front.dll
