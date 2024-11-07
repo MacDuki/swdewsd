@@ -1,0 +1,36 @@
+﻿
+@using Dominio;
+
+
+
+<div class="text-center">
+    <h1 class="display-4 color">Bienvenidos.</h1>
+    <div class="container d-flex align-items-center justify-content-center ">
+        <div class="card p-4 shadow" style="max-width: 400px; width: 100%;">
+            <h2 class="text-center mb-4">Login</h2>
+            <form asp-action="CheckClient" method="post">
+    <div class="form-group">
+        <label for="inputGmail">Email address</label>
+        <input type="email" class="form-control" id="inputGmail" name="inputGmail" required>
+    </div>
+    <div class="form-group">
+        <label for="inputPass">Password</label>
+        <input type="password" class="form-control" id="inputPass" name="inputPass" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+        </div>
+        <div>
+            <h2>Listado de clientes:</h2>
+            <ul>
+            @foreach(Cliente oneC in ViewBag.ClientList)
+             {
+            <li>
+                @oneC.ToString();
+            </li>
+             }
+            </ul>
+       </div>
+    </div>
+    <p class="mt-5">Learn about <a href="https://learn.microsoft.com/aspnet/core">construyendo webs porongas con ASP.NET Core</a>.</p>
+</div>

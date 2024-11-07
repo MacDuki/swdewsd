@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testing Front", "testing Front\testing Front.csproj", "{4890DF58-6F54-466E-948B-C7029857CC67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testing Front", "testing Front\testing Front.csproj", "{4890DF58-6F54-466E-948B-C7029857CC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominioP1", "DominioP1\DominioP1.csproj", "{A416ED88-CDD9-404A-8A24-E988B894C9B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4890DF58-6F54-466E-948B-C7029857CC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4890DF58-6F54-466E-948B-C7029857CC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4890DF58-6F54-466E-948B-C7029857CC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A416ED88-CDD9-404A-8A24-E988B894C9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A416ED88-CDD9-404A-8A24-E988B894C9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A416ED88-CDD9-404A-8A24-E988B894C9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A416ED88-CDD9-404A-8A24-E988B894C9B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
