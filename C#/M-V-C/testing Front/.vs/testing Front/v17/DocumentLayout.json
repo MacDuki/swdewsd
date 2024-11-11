@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\dominiop1\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|solutionrelative:dominiop1\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\register\\failureregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\register\\failureregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\home\\homeclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\home\\homeclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\register\\successregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\register\\successregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\login\\errorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\login\\errorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\dominiop1\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|solutionrelative:dominiop1\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\home\\homeclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\home\\homeclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\home\\homeadm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\home\\homeadm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,80 +54,132 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "testing Front\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "testing Front\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T02:45:46.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeClient.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Home\\HomeClient.cshtml",
-              "RelativeDocumentMoniker": "testing Front\\Views\\Home\\HomeClient.cshtml",
-              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Home\\HomeClient.cshtml",
-              "RelativeToolTip": "testing Front\\Views\\Home\\HomeClient.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FailureRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Register\\FailureRegister.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Register\\FailureRegister.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Register\\FailureRegister.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Register\\FailureRegister.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T02:45:04.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ErrorLogin.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Login\\ErrorLogin.cshtml",
-              "RelativeDocumentMoniker": "testing Front\\Views\\Login\\ErrorLogin.cshtml",
-              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Login\\ErrorLogin.cshtml",
-              "RelativeToolTip": "testing Front\\Views\\Login\\ErrorLogin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T02:41:34.422Z",
+              "WhenOpened": "2024-11-11T18:18:53.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "testing Front\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "testing Front\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T01:43:04.975Z",
+              "WhenOpened": "2024-11-11T17:55:16.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sistema.cs",
-              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\DominioP1\\Sistema.cs",
-              "RelativeDocumentMoniker": "DominioP1\\Sistema.cs",
-              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\DominioP1\\Sistema.cs",
-              "RelativeToolTip": "DominioP1\\Sistema.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAuwOEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:26:17.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "testing Front\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\LoginController.cs",
               "RelativeToolTip": "testing Front\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T01:20:31.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SuccessRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Register\\SuccessRegister.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Register\\SuccessRegister.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Register\\SuccessRegister.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Register\\SuccessRegister.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T17:51:54.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:40:27.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeAdm.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Home\\HomeAdm.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Home\\HomeAdm.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Home\\HomeAdm.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Home\\HomeAdm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:25:30.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "testing Front\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "testing Front\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T02:45:46.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeClient.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Home\\HomeClient.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Home\\HomeClient.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Home\\HomeClient.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Home\\HomeClient.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T02:45:04.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Login\\ErrorLogin.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Login\\ErrorLogin.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Login\\ErrorLogin.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Login\\ErrorLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T02:41:34.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sistema.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\DominioP1\\Sistema.cs",
+              "RelativeDocumentMoniker": "DominioP1\\Sistema.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\DominioP1\\Sistema.cs",
+              "RelativeToolTip": "DominioP1\\Sistema.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAADwvwUBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:26:17.701Z",
               "EditorCaption": ""
             }
           ]

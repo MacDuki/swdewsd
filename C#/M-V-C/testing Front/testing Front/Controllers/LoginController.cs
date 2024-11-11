@@ -32,17 +32,20 @@ namespace testing_Front.Controllers
         {
             Sistema system = new Sistema();
             system.PrecargaDeDatos();
-            bool isClient = system.IsClient(inputGmail, inputPass);
+            string isRegister = system.IsRegister(inputGmail, inputPass);
 
-            if (isClient)
+            if (isRegister == "client")
             {
 
                 return RedirectToAction("HomeClient", "Home");
+            } else if (isRegister == "admin")
+            {
+                return RedirectToAction("HomeAdm", "Home");
             }
             else
             {
                 // Cliente no encontrado, mostrar mensaje de error
-                ViewBag.ErrorMessage = "Cliente no encontrado. Verifique sus datos.";
+                ViewBag.ErrorMessageLogin = "Usuario no encontrado. Verifique sus datos.";
                 return View("ErrorLogin"); 
             }
         }

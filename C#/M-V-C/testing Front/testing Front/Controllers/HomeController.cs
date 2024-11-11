@@ -8,5 +8,10 @@ namespace testing_Front.Controllers
         {
             return View();
         }
+
+        public IActionResult HomeAdm()
+        {
+            return View();
+        }
     }
 }

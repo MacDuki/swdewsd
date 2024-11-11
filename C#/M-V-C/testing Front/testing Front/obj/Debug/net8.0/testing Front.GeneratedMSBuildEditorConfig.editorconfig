@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\testing Front
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Home/HomeAdm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lQWRtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Home/HomeClient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lQ2xpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,8 +42,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Register/FailureRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRmFpbHVyZVJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Register/SuccessRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcU3VjY2Vzc1JlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Shared/Error.cshtml]

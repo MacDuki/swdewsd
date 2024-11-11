@@ -152,6 +152,26 @@ public class Sistema
         return listaAuxiliar;
     }
 
+    public List<Administrador> ListarAdministradores()
+    {
+        List<Administrador> listaAuxiliar = new List<Administrador>();
+
+
+        foreach (Usuario unUsuario in listaUsuario)
+        {
+            if (unUsuario is Administrador unAdm)
+            {
+                listaAuxiliar.Add(unAdm);
+            }
+        }
+
+        if (listaAuxiliar.Count == 0)
+        {
+            throw new Exception("No se encontró ningún Administrador.");
+        }
+
+        return listaAuxiliar;
+    }
 
     public List<Articulo> FiltrarArticulos(string categoriaSelected)
     {
@@ -202,21 +222,49 @@ public class Sistema
 
 
     /*Comienzo testeo de frontEnd con Dominio*/
-    public bool IsClient(string inputGmail, string inputPass)
+    public string IsRegister(string inputGmail, string inputPass)
     {
-        List<Cliente> clientes =ListarClientes();
-        bool isClient = false;
-        foreach (Cliente client in clientes)
+        string isRegister = "";
+
+
+        foreach (Usuario unUsuario in listaUsuario)
         {
-            if (client.Email.Contains(inputGmail) && client.Contrasenia.Contains(inputPass))
+            if (unUsuario is Cliente unCliente && unUsuario.Email.Contains(inputGmail) && unUsuario.Contrasenia.Contains(inputPass))
             {
-                isClient = true;
+                isRegister = "client";
+            } else if (unUsuario is Administrador administrador && unUsuario.Email.Contains(inputGmail) && unUsuario.Contrasenia.Contains(inputPass))
+            {
+                isRegister = "admin";
+            }
+        }
+        return isRegister;
+    }
+
+
+    public bool NewClientRegister (string firstName, string lastName, string email, string password)
+    {
+        bool succeed = false;
+        bool isRegister = false;
+
+
+        foreach (Usuario unUsuario in listaUsuario)
+        {
+            if ( unUsuario.Email.Equals(email) && unUsuario.Contrasenia.Equals(password))
+            {
+                isRegister = true;
             }
         }
 
-        return isClient;
-    }
+        if (isRegister)
+        {
+            succeed = false;
+        } else {
+         listaUsuario.Add(new Cliente(firstName, lastName, email, password, 0.0m));
+        succeed = true; 
+        }
 
+        return succeed;
+    }
 
 }
 
