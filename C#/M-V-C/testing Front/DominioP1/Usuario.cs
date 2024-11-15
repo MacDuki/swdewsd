@@ -1,6 +1,8 @@
-﻿namespace Dominio
+﻿using DominioP1;
+
+namespace Dominio
 {
-    public class Usuario
+    public class Usuario : IValidable
     {
         private static int _ultimoId = 0;
         private int _id;
@@ -65,5 +67,41 @@
                 $"Apellido: {Apellido}\n" +
                 $"Email: {Email}."; 
         }
-    }
+
+        public void Validar()
+        {
+            ValidarNombre();
+            ValidarApellido();
+            ValidarContrasenia(); 
+        }
+
+        private void ValidarNombre() 
+        {
+            if (Nombre.Length < 3) 
+            {
+                throw new Exception("Verifique que el nombre del usuario esté compuesto por lo menos por tres caracteres."); 
+            }
+        }
+
+        private void ValidarApellido() 
+        {
+            if (Apellido.Length < 3) 
+            {
+                throw new Exception("Verifique que el apellido del usuario esté compuesto por lo menos por tres caracteres.");
+            }
+        }
+
+        private void ValidarContrasenia() 
+        {
+            if (Contrasenia.Length < 6) 
+            {
+                throw new Exception("La contraseña debe estar compuesta por un mínimo de 6 caracteres.");  
+            }
+        }
+
+		public override bool Equals(object? obj)
+		{
+            return obj is Usuario unUsuario && unUsuario._email == Email; 
+		}
+	}
 }

@@ -1,6 +1,8 @@
-﻿namespace Dominio
+﻿using DominioP1;
+
+namespace Dominio
 {
-    public class Articulo
+    public class Articulo : IValidable
     {
 
 
@@ -53,7 +55,7 @@
         }
 
 
-        public void ValidarArticulo()
+        public void Validar()
         {
             ValidarNombre();
             ValidarCategoria();

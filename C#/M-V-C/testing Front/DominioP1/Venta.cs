@@ -1,6 +1,8 @@
-﻿namespace Dominio
+﻿using DominioP1;
+
+namespace Dominio
 {
-    public class Venta : Publicacion
+    public class Venta : Publicacion, IValidable
     {
         // NO DECLARO NI ULTIMO ID NI ID, PUESTO QUE LOS HEREDA DE LA CLASE PUBLICACIÓN.
 
@@ -34,7 +36,18 @@
             PrecioVenta = precioVenta;
         }
 
+        public void Validar() 
+        {
+            ValidarPrecioVenta(); 
+        }
 
+        private void ValidarPrecioVenta() 
+        {
+            if (PrecioVenta < 0) 
+            {
+                throw new Exception("Verifique que el precio de la venta, sea mayor a 0.");
+            }
+        }
 
         public float AplicarDescuento()
         {

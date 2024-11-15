@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DominioP1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public class Administrador : Usuario
+    public class Administrador : Usuario, IValidable
     {
 
         public void CerrarSubasta() { }
@@ -24,5 +25,6 @@ namespace Dominio
                 $"Email del administrador: {Email}.\n" +
                 $"-------------------------------";
         }
+
     }
 }

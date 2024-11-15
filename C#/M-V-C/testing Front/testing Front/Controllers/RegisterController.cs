@@ -5,11 +5,11 @@ namespace testing_Front.Controllers
 {
     public class RegisterController : Controller
     {
+        Sistema system = Sistema.Instancia; 
 
         public IActionResult NewClientRegister(string firstName, string lastName, string email, string password)
         {
 
-            Sistema system = new Sistema();
             system.PrecargaDeDatos();
             
             bool succeed = system.NewClientRegister( firstName, lastName, email, password);

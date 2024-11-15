@@ -16,12 +16,45 @@
    
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"  asp-controller="/Login" >Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="/Register">Register</a>
-                        </li>
+                        @if (Context.Session.GetString("Usuario") == null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark"  asp-controller="/Login" asp-action="Index">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="/Register" asp-action="Index">Register</a>
+                            </li class="nav-item">
+
+                           <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="RegistrarCliente" asp-action="AgregarCliente">Registrar cliente</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="LoginEjemplo" asp-action="LoginUsuario">Loguearse al sistema</a>
+                            </li>
+
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="LoginEjemplo" asp-action="Logout">Salir del sistema</a>
+                            </li>
+
+                            if (Context.Session.GetString("Rol") == "Cliente")
+                            {
+                                <li>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Publicacion" asp-action="ListarPublicaciones">Listar todas las publicaciones</a>
+                                </li>
+                                     <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="CargarSaldo" asp-action="CargarSaldo">Agregar saldo</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Subasta" asp-action="ListarSubastas">Listar todas las subastas</a>
+                                </li>
+                            }
+                        }
                     </ul>
                 </div>
             </div>

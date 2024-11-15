@@ -4,9 +4,12 @@ using testing_Front.Models;
 using Dominio;
 namespace testing_Front.Controllers
 {
+
     public class LoginController : Controller
     {
-       
+        Sistema system = Sistema.Instancia;
+
+
         private readonly ILogger<LoginController> _logger;
 
         public LoginController(ILogger<LoginController> logger)
@@ -17,7 +20,6 @@ namespace testing_Front.Controllers
       
         public IActionResult Index()
         {
-            Sistema system = new Sistema();
             system.PrecargaDeDatos();
             List<Cliente> clientList = system.ListarClientes();
             ViewBag.ClientList = clientList;
@@ -30,7 +32,6 @@ namespace testing_Front.Controllers
         }
         public IActionResult CheckClient(string inputGmail, string inputPass)
         {
-            Sistema system = new Sistema();
             system.PrecargaDeDatos();
             string isRegister = system.IsRegister(inputGmail, inputPass);
 

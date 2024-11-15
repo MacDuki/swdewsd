@@ -1,0 +1,26 @@
+﻿@using Dominio; 
+@model List<Publicacion>
+
+
+<h4>LISTADO DE TODAS LAS PUBLICACIONES</h4>
+
+<table class="table table-stripped table-hover">
+	<thead>
+		<tr>
+			<th scope="col">ID</th>
+			<th scope="col">NOMBRE</th>
+			<th scope="col">TIPO DE PUBLICACIÓN</th>
+			<th scope="col">FECHA DE PUBLICACIÓN</th>
+			<th scope="col">FECHA DE FINALIZACIÓN</th>
+			<th scope="col">ESTADO DE LA PUBLICACIÓN</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (Publicacion unaPublicacion in Model)
+		{
+			<tr>@Html.Raw(unaPublicacion.ToString())</tr>
+		}
+	</tbody>
+</table>
+
+

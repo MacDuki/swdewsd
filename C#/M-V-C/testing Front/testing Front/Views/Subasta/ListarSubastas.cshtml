@@ -1,0 +1,29 @@
+﻿@using Dominio;
+@model List<Publicacion>
+
+<h4>@ViewBag.Mensaje</h4>
+
+<table class="table table-stripped table-hover">
+	<thead>
+		<tr>
+			<th scope="col">ID</th>
+			<th scope="col">NOMBRE</th>
+			<th scope="col">TIPO DE PUBLICACIÓN</th>
+			<th scope="col">FECHA DE PUBLICACIÓN</th>
+			<th scope="col">FECHA DE FINALIZACIÓN</th>
+			<th scope="col">ESTADO SUBASTA</t>
+			<th scope="col">PRECIO INICIAL</th>
+			<th scope="col"> PRECIO FINAL</th>
+			<th scope="col">LISTADO DE OFERTAS</td>
+		</tr>
+	</thead>
+	<tbody>
+			@foreach (Subasta unaSubasta in Model)
+			{
+			<tr>
+					@Html.Raw(unaSubasta.ToString())
+					<td><a href="/Subasta/">OFERTAS REALIZADAS</a></td>
+			</tr>
+			}
+	</tbody>
+</table>

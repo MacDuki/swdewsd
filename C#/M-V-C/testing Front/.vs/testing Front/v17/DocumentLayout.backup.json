@@ -23,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|solutionrelative:dominiop1\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -66,12 +62,11 @@
               "RelativeToolTip": "testing Front\\Views\\Register\\FailureRegister.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T18:18:53.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T18:18:53.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Register\\Index.cshtml",
               "RelativeDocumentMoniker": "testing Front\\Views\\Register\\Index.cshtml",
@@ -79,12 +74,11 @@
               "RelativeToolTip": "testing Front\\Views\\Register\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T17:55:16.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T17:55:16.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "testing Front\\Controllers\\LoginController.cs",
@@ -92,8 +86,7 @@
               "RelativeToolTip": "testing Front\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:20:31.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T01:20:31.885Z"
             },
             {
               "$type": "Document",
@@ -105,8 +98,7 @@
               "RelativeToolTip": "testing Front\\Views\\Register\\SuccessRegister.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T17:51:54.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T17:51:54.967Z"
             },
             {
               "$type": "Document",
@@ -116,14 +108,14 @@
               "RelativeDocumentMoniker": "testing Front\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "testing Front\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-11T16:40:27.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "HomeAdm.cshtml",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Home\\HomeAdm.cshtml",
               "RelativeDocumentMoniker": "testing Front\\Views\\Home\\HomeAdm.cshtml",
@@ -131,12 +123,11 @@
               "RelativeToolTip": "testing Front\\Views\\Home\\HomeAdm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T16:25:30.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T16:25:30.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "testing Front\\Controllers\\HomeController.cs",
@@ -144,12 +135,11 @@
               "RelativeToolTip": "testing Front\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T02:45:46.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T02:45:46.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "HomeClient.cshtml",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Home\\HomeClient.cshtml",
               "RelativeDocumentMoniker": "testing Front\\Views\\Home\\HomeClient.cshtml",
@@ -157,8 +147,7 @@
               "RelativeToolTip": "testing Front\\Views\\Home\\HomeClient.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T02:45:04.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T02:45:04.905Z"
             },
             {
               "$type": "Document",
@@ -170,8 +159,7 @@
               "RelativeToolTip": "testing Front\\Views\\Login\\ErrorLogin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T02:41:34.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T02:41:34.422Z"
             },
             {
               "$type": "Document",
@@ -183,42 +171,7 @@
               "RelativeToolTip": "DominioP1\\Sistema.cs",
               "ViewState": "AgIAAPAAAAAAAAAAAADwvwUBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:26:17.701Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "9beb96b4-655f-483e-ae6a-9a1e291d59aa",
-        "Display": 1,
-        "X": -21,
-        "Y": 90,
-        "Width": 1616,
-        "Height": 776,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "testing Front\\Controllers\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "testing Front\\Controllers\\RegisterController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:46:34.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T01:26:17.701Z"
             }
           ]
         }

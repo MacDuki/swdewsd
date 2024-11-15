@@ -62,8 +62,7 @@
               "RelativeToolTip": "testing Front\\Views\\Register\\FailureRegister.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T18:18:53.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T18:18:53.323Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "testing Front\\Views\\Register\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T17:55:16.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T17:55:16.973Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "testing Front\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:20:31.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T01:20:31.885Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "testing Front\\Views\\Register\\SuccessRegister.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T17:51:54.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T17:51:54.967Z"
             },
             {
               "$type": "Document",
@@ -112,7 +108,7 @@
               "RelativeDocumentMoniker": "testing Front\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "testing Front\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-11T16:40:27.091Z",
               "EditorCaption": ""
@@ -127,8 +123,7 @@
               "RelativeToolTip": "testing Front\\Views\\Home\\HomeAdm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T16:25:30.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T16:25:30.133Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "testing Front\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T02:45:46.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T02:45:46.14Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "testing Front\\Views\\Home\\HomeClient.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T02:45:04.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T02:45:04.905Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "testing Front\\Views\\Login\\ErrorLogin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T02:41:34.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T02:41:34.422Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "DominioP1\\Sistema.cs",
               "ViewState": "AgIAAPAAAAAAAAAAAADwvwUBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:26:17.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T01:26:17.701Z"
             }
           ]
         }
