@@ -1,33 +1,60 @@
 ﻿@using Dominio;
 
-<div class="text-center">
-    <h1 class="display-4 color">Bienvenidos.</h1>
-    <div class="container d-flex align-items-center justify-content-center ">
-        <div class="card p-4 shadow" style="max-width: 400px; width: 100%;">
-            <h2 class="text-center mb-4">Login</h2>
-            <form asp-action="CheckClient" method="post">
-    <div class="form-group">
-        <label for="inputGmail">Email address</label>
-        <input type="email" class="form-control" id="inputGmail" name="inputGmail" required>
-    </div>
-    <div class="form-group">
-        <label for="inputPass">Password</label>
-        <input type="password" class="form-control" id="inputPass" name="inputPass" required>
-    </div>
-    <button type="submit" class="btn btn-primary mt-3">Login</button>
-</form>
+<div class="tab-content contenedor p-5 card shadow">
+    <h1 class="cardTitle py-1">Log In</h1>
+    <div class="tab-pane fade show active" id="Login" role="tabpanel" aria-labelledby="tab-login">
+        <div class="text-center mb-3 iconsContainer">
+            <p>Sign in with:</p>
+            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating p-0 mx-1">
+                <img src="https://th.bing.com/th/id/OIP.P_z8uTsVJ8tmPn2prJwOpQHaHa?rs=1&pid=ImgDetMain" />
+            </button>
+
+            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating p-0 mx-1">
+                <img src="https://th.bing.com/th/id/OIP.EhTMbGiYfYzQnWLgjZaoJAHaHa?rs=1&pid=ImgDetMain" />
+            </button>
+
+            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating p-0 mx-1">
+                <img src="https://icons.veryicon.com/png/Phone/iOS7%20Style/Twitter.png" />
+            </button>
+            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating p-0 mx-1">
+                <img src="https://th.bing.com/th/id/OIP.rHUnyNRNkBKVEK4HlTzCgQHaHa?rs=1&pid=ImgDetMain" />
+            </button>
         </div>
-        <div>
-            <h2>Listado de clientes:</h2>
-            <ul>
-            @foreach(Cliente oneC in ViewBag.ClientList)
-             {
-            <li>
-                @oneC.ToString();
-            </li>
-             }
-            </ul>
-       </div>
+
+        <p class="text-center">or :</p>
+
+        <form asp-action="CheckClient" method="post">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="inputGmail">Email address</label>
+                <input type="email" class="form-control inputText" id="inputGmail" name="inputGmail" required>
+            </div>
+
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="inputPass">Password</label>
+                <input type="password" class="form-control inputText" id="inputPass" name="inputPass" required>
+            </div>
+
+            <!-- 2 column grid layout -->
+            <div class="row mb-4">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check mb-3 mb-md-0">
+                        <input class="form-check-input checkBoxLogin" type="checkbox" value="" id="loginCheck" checked />
+                        <label class="form-check-label" for="loginCheck"> Remember me </label>
+                    </div>
+                </div>
+
+               
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+                <p>Not a member? <a href="Register">Register</a></p>
+            </div>
+        </form>
     </div>
-    <p class="mt-5">Learn about <a href="https://learn.microsoft.com/aspnet/core">construyendo webs porongas con ASP.NET Core</a>.</p>
-</div>

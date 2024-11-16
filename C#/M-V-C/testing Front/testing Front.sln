@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testing Front", "testing Front\testing Front.csproj", "{4890DF58-6F54-466E-948B-C7029857CC67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominioP1", "DominioP1\DominioP1.csproj", "{A416ED88-CDD9-404A-8A24-E988B894C9B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominioP1", "DominioP1\DominioP1.csproj", "{A416ED88-CDD9-404A-8A24-E988B894C9B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

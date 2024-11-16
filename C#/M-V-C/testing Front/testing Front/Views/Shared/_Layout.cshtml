@@ -7,48 +7,42 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/testing_Front.styles.css" asp-append-version="true" />
+
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" >Obligatorio 2</a>
-   
+                <a class="navbar-brand">Obligatorio 2</a>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         @if (Context.Session.GetString("Usuario") == null)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark"  asp-controller="/Login" asp-action="Index">Login</a>
+                                <a class="nav-link text-dark" asp-controller="Login" asp-action="Index">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="/Register" asp-action="Index">Register</a>
-                            </li class="nav-item">
-
-                           <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="RegistrarCliente" asp-action="AgregarCliente">Registrar cliente</a>
+                                <a class="nav-link text-dark" asp-controller="Register" asp-action="Index">Register</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="LoginEjemplo" asp-action="LoginUsuario">Loguearse al sistema</a>
-                            </li>
-
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="LoginEjemplo" asp-action="Logout">Salir del sistema</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Logout">Salir del sistema</a>
                             </li>
 
-                            if (Context.Session.GetString("Rol") == "Cliente")
+                            @if (Context.Session.GetString("Rol") == "Cliente")
                             {
                                 <li>
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Publicacion" asp-action="ListarPublicaciones">Listar todas las publicaciones</a>
                                 </li>
-                                     <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="CargarSaldo" asp-action="CargarSaldo">Agregar saldo</a>
                                 </li>
                             }
-                            else
+                            else if (Context.Session.GetString("Rol") == "Administrador")
                             {
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Subasta" asp-action="ListarSubastas">Listar todas las subastas</a>
@@ -60,6 +54,7 @@
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

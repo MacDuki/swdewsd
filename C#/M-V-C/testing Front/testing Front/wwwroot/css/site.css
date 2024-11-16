@@ -1,3 +1,54 @@
+/*ANIMATIONS*/
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}   
+/*REGISTER*/
+.inputText {
+    border-radius: 10px;
+}
+/*LOGIN*/
+.cardTitle {
+}
+.checkBoxLogin {
+    cursor: pointer;
+}
+
+.iconsContainer img:hover {
+    max-height: 30px;
+}
+
+.iconsContainer img {
+    max-height: 25px;
+    transition: all ease .2s;
+}
+.iconsContainer {
+    height: 80px;
+
+}
+
+.contenedor {
+    max-width: 1024px;
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    animation: slideIn .8s ease-out;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 html {
   font-size: 14px;
 }
