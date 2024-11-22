@@ -1,7 +1,6 @@
 --DDL 
-
-create database ObligatorioBD 
-use  ObligatorioBD 
+Create DataBase ObligatorioBD1 
+use  ObligatorioBD1
 SET DATEFORMAT YMD;
 
 --Creación de la tabla CATEGORÍA. 
@@ -84,8 +83,6 @@ idDepartamento int ,
 primary key (idTerminal),
 foreign key (idDepartamento) references Departamento(idDepartamento)
 );
-
-
 
 --Creación de la tabla BUS.
 
