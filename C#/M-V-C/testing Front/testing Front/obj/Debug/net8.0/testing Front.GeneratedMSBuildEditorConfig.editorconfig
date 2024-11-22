@@ -42,14 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lQ2xpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/LoginEjemplo/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5FamVtcGxvXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/LoginEjemplo/LoginUsuario.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5FamVtcGxvXExvZ2luVXN1YXJpby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Login/ErrorLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRXJyb3JMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,10 +60,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/RegistrarCliente/AgregarCliente.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmFyQ2xpZW50ZVxBZ3JlZ2FyQ2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/testing Front/Views/Shared/Error.cshtml]

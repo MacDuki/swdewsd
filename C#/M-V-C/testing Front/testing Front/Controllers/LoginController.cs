@@ -45,7 +45,7 @@ namespace testing_Front.Controllers
             else
             {
                 ViewBag.Mensaje = "Credenciales incorrectas. No existe un usuario con los datos ingresados.";
-                return View();
+                return RedirectToAction("ErrorLogin", "Login");
             }
         }
 

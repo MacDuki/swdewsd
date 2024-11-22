@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|solutionrelative:dominiop1\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\cargarsaldocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\cargarsaldocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\registrarcliente\\agregarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\registrarcliente\\agregarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\registrarclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\registrarclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\testing front\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "DominioP1\\Sistema.cs",
               "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\DominioP1\\Sistema.cs",
               "RelativeToolTip": "DominioP1\\Sistema.cs",
-              "ViewState": "AgIAAEEBAAAAAAAAAADwv1kBAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T01:19:28.737Z",
               "IsPinned": true,
@@ -56,7 +56,34 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CargarSaldoController.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\CargarSaldoController.cs",
+              "RelativeDocumentMoniker": "testing Front\\Controllers\\CargarSaldoController.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\CargarSaldoController.cs",
+              "RelativeToolTip": "testing Front\\Controllers\\CargarSaldoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "testing Front\\Controllers",
+              "WhenOpened": "2024-11-22T23:21:00.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "testing Front\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "testing Front\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T23:12:25.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Register\\Index.cshtml",
               "RelativeDocumentMoniker": "testing Front\\Views\\Register\\Index.cshtml",
@@ -69,32 +96,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AgregarCliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\RegistrarCliente\\AgregarCliente.cshtml",
-              "RelativeDocumentMoniker": "testing Front\\Views\\RegistrarCliente\\AgregarCliente.cshtml",
-              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\RegistrarCliente\\AgregarCliente.cshtml",
-              "RelativeToolTip": "testing Front\\Views\\RegistrarCliente\\AgregarCliente.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T03:38:48.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistrarClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\RegistrarClienteController.cs",
-              "RelativeDocumentMoniker": "testing Front\\Controllers\\RegistrarClienteController.cs",
-              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\RegistrarClienteController.cs",
-              "RelativeToolTip": "testing Front\\Controllers\\RegistrarClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T03:34:07.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Views\\Shared\\_Layout.cshtml",
@@ -103,12 +104,11 @@
               "RelativeToolTip": "testing Front\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T03:12:51.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T03:12:51.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\testing Front\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "testing Front\\Controllers\\RegisterController.cs",
@@ -129,8 +129,7 @@
               "RelativeToolTip": "testing Front\\wwwroot\\css\\site.css",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-15T12:41:25.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T12:41:25.839Z"
             }
           ]
         }
