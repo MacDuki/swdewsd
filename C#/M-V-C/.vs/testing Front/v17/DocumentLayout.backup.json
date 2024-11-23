@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\views\\home\\homeclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\home\\homeclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\testing front\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4890DF58-6F54-466E-948B-C7029857CC67}|testing Front\\testing Front.csproj|solutionrelative:testing front\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\dominiop1\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|solutionrelative:dominiop1\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\dominiop1\\subasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|solutionrelative:dominiop1\\subasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\dominiop1\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|solutionrelative:dominiop1\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|c:\\users\\pcmya\\onedrive\\desktop\\codeproyects\\tests\\c#\\m-v-c\\dominiop1\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A416ED88-CDD9-404A-8A24-E988B894C9B8}|DominioP1\\DominioP1.csproj|solutionrelative:dominiop1\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sistema.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\DominioP1\\Sistema.cs",
+              "RelativeDocumentMoniker": "DominioP1\\Sistema.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\DominioP1\\Sistema.cs",
+              "RelativeToolTip": "DominioP1\\Sistema.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwGcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T01:19:28.737Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T05:15:12.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "testing Front\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "testing Front\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:10:39.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "testing Front\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "testing Front\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T04:19:45.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "testing Front\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "testing Front\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwEgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-23T03:53:12.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeClient.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\Views\\Home\\HomeClient.cshtml",
+              "RelativeDocumentMoniker": "testing Front\\Views\\Home\\HomeClient.cshtml",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\Views\\Home\\HomeClient.cshtml",
+              "RelativeToolTip": "testing Front\\Views\\Home\\HomeClient.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T03:38:28.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "faf99931-9414-4db2-9963-5174c9a6cf89",
+        "Display": 0,
+        "X": 328,
+        "Y": 229,
+        "Width": 1597,
+        "Height": 775,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Publicacion.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\DominioP1\\Publicacion.cs",
+              "RelativeDocumentMoniker": "DominioP1\\Publicacion.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\DominioP1\\Publicacion.cs",
+              "RelativeToolTip": "DominioP1\\Publicacion.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwv24AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T02:31:40.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Subasta.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\DominioP1\\Subasta.cs",
+              "RelativeDocumentMoniker": "DominioP1\\Subasta.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\DominioP1\\Subasta.cs",
+              "RelativeToolTip": "DominioP1\\Subasta.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T02:23:30.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\DominioP1\\Venta.cs",
+              "RelativeDocumentMoniker": "DominioP1\\Venta.cs",
+              "ToolTip": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\DominioP1\\Venta.cs",
+              "RelativeToolTip": "DominioP1\\Venta.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T02:46:09.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

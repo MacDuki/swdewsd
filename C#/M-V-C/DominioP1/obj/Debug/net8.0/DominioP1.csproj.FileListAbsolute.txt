@@ -1,0 +1,71 @@
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.deps.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.pdb
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfoInputs.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfo.cs
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.csproj.CoreCompileInputs.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.sourcelink.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\refint\DominioP1.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.pdb
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front\DominioP1\obj\Debug\net8.0\ref\DominioP1.dll
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.deps.json
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.dll
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.pdb
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfoInputs.cache
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfo.cs
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.csproj.CoreCompileInputs.cache
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.sourcelink.json
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.dll
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\refint\DominioP1.dll
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.pdb
+C:\Users\Tavocles\Desktop\testing Front\DominioP1\obj\Debug\net8.0\ref\DominioP1.dll
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.deps.json
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.dll
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.pdb
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfoInputs.cache
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfo.cs
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.csproj.CoreCompileInputs.cache
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.sourcelink.json
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.dll
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\refint\DominioP1.dll
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.pdb
+C:\Users\Tavocles\Desktop\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\ref\DominioP1.dll
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.deps.json
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.dll
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\bin\Debug\net8.0\DominioP1.pdb
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfoInputs.cache
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfo.cs
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.csproj.CoreCompileInputs.cache
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.dll
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\refint\DominioP1.dll
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\DominioP1.pdb
+C:\Users\PCMYA\Downloads\obligatorioP2 (13-11-2024)\obligatorioP2 (13-11-2024)\testing Front\DominioP1\obj\Debug\net8.0\ref\DominioP1.dll
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\bin\Debug\net8.0\DominioP1.deps.json
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\bin\Debug\net8.0\DominioP1.dll
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\bin\Debug\net8.0\DominioP1.pdb
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\DominioP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfoInputs.cache
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfo.cs
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\DominioP1.csproj.CoreCompileInputs.cache
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\DominioP1.sourcelink.json
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\DominioP1.dll
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\refint\DominioP1.dll
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\DominioP1.pdb
+C:\Users\Tavocles\Desktop\ObligatorioP2\DominioP1\obj\Debug\net8.0\ref\DominioP1.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\bin\Debug\net8.0\DominioP1.deps.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\bin\Debug\net8.0\DominioP1.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\bin\Debug\net8.0\DominioP1.pdb
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\DominioP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfoInputs.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\DominioP1.AssemblyInfo.cs
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\DominioP1.csproj.CoreCompileInputs.cache
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\DominioP1.sourcelink.json
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\DominioP1.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\refint\DominioP1.dll
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\DominioP1.pdb
+C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\DominioP1\obj\Debug\net8.0\ref\DominioP1.dll

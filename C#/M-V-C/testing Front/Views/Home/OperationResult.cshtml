@@ -1,0 +1,11 @@
+﻿@using DominioP1; 
+
+@if (ViewBag.Mensaje != null)
+{
+	<h2 class="alert-success">@ViewBag.Mensaje</h2>
+}
+
+@if(ViewBag.Error != null)
+{
+	<h2 class="alert-danger">@ViewBag.Error</h2>
+}

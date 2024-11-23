@@ -1,0 +1,33 @@
+﻿@using Dominio;
+@model List<Subasta>
+
+
+<h1>Home Administrador</h1>
+<h4>LISTADO DE TODAS LAS SUBASTAS</h4>
+
+<table class="table table-stripped table-hover text-center">
+	<thead>
+		<tr>
+			<th scope="col">NOMBRE</th>
+			<th scope="col">TIPO</th>
+			<th scope="col">FECHA DE PUBLICACIÓN</th>
+			<th scope="col">ESTADO</th>
+			<th scope="col">OFERTA MÁS ALTA</th>
+			<th class="" scope="col">CERRAR SUBASTA</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (Subasta unaPublicacion in Model)
+		{
+			<tr>
+				<td>@unaPublicacion.Nombre</td>
+				<td>@unaPublicacion.TipoPublicacion</td>
+				<td>@unaPublicacion.FechaPublicacion</td>
+				<td>@unaPublicacion.Estado</td>
+				<td>@unaPublicacion.PrecioFinal</td>
+				<td><a href='#' class='btn btn-outline-primary btn-sm'><img src='https://i.pinimg.com/564x/37/1d/ed/371dedd5ce48bf243e2c08c5038e20aa.jpg' alt='icono de cierre' class='img-fluid rounded' style='width:40px;height:auto;' /></a></td>
+			</tr>
+		}
+	</tbody>
+</table>
+

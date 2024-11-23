@@ -1,0 +1,64 @@
+﻿@using Dominio;
+@model List<Publicacion>
+
+<h4>LISTADO DE TODAS LAS PUBLICACIONES</h4>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">TIPO DE PUBLICACIÓN</th>
+            <th scope="col">FECHA DE PUBLICACIÓN</th>
+            <th scope="col">FECHA DE FINALIZACIÓN</th>
+            <th scope="col">ESTADO DE LA PUBLICACIÓN</th>
+            <th scope="col">PRECIO</th>
+            <th scope="col">ACCION</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Publicacion unaPublicacion in Model)
+        {
+            <tr>
+                <td>@unaPublicacion.Nombre</td>
+                <td>@unaPublicacion.TipoPublicacion</td>
+                <td>@unaPublicacion.FechaPublicacion</td>
+                <td>@unaPublicacion.FechaFinalizacion</td>
+                <td>@unaPublicacion.Estado</td>
+                <td>
+                    @{
+                        if (unaPublicacion is Venta venta)
+                        {
+                            if(venta.EsOfertaRelampago)
+                            {
+                                @venta.ObtenerPrecio()
+                            } else {
+                                @venta.PrecioVenta.ToString("C")
+                            }
+                            
+                        }
+                        else if (unaPublicacion is Subasta subasta)
+                        {
+                            @subasta.PrecioFinal.ToString("C")
+                        } 
+                    }
+                </td>
+                <td>
+                    <form asp-action="RealizarCompra" method="post">
+                        @if (unaPublicacion.TipoPublicacion == "venta" && unaPublicacion.Estado == Publicacion.EstadoPublicacion.ABIERTA)
+                        {
+                            <input type="hidden" name="idPublicacion" value="@unaPublicacion.Id" />
+                            <button type="submit">COMPRAR</button>
+                        }
+                    </form>
+                    <form asp-action="RealizeOffer" method="post">
+                        @if (unaPublicacion is Subasta && unaPublicacion.Estado == Publicacion.EstadoPublicacion.ABIERTA)
+                        {
+                            <input type="hidden" name="idPublicacion" value="@unaPublicacion.Id" />
+                            <button type="submit"> OFERTAR </button>
+                        }
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

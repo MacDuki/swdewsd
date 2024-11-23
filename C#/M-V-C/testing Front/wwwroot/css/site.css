@@ -1,0 +1,128 @@
+/*ANIMATIONS*/
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}   
+/*REGISTER*/
+.inputText {
+    border-radius: 10px;
+}
+/*LOGIN*/
+.cardTitle {
+}
+.checkBoxLogin {
+    cursor: pointer;
+}
+
+.iconsContainer img:hover {
+    max-height: 30px;
+}
+
+.iconsContainer img {
+    max-height: 25px;
+    transition: all ease .2s;
+}
+.iconsContainer {
+    height: 80px;
+
+}
+
+.contenedor {
+    max-width: 1024px;
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    animation: slideIn .8s ease-out;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    overflow: hidden;
+    user-select: none;
+}
+
+#homeClientSection {
+    border-radius: 20px;
+    animation: slideIn .8s ease-out;
+    overflow-y: scroll;
+    height: 75vh;
+    position: relative;
+}
+
+#homeClientTable {
+    border-spacing: 10px;
+    border-collapse: separate;
+    vertical-align: middle;
+}
+
+#homeClientTable thead {
+    position: sticky;
+    top: 0;
+    background: white; /* Asegúrate de usar un fondo para el encabezado */
+    z-index: 10;
+}
+
+    #homeClientTable th {
+        background-color: rgba(165, 216, 255, .3) !important;
+        border-radius: 15px;
+        font-size: 15px;
+        vertical-align: middle;
+        border: none;
+    }
+
+    #homeClientTable td {
+        border-radius: 15px;
+        font-size: 15px;
+        vertical-align: middle;
+    }
+
+#homeClientSection img {
+    border-radius: 50% !important;
+    background-color: transparent;
+    transition: all ease .4s;
+    cursor: pointer;
+}
+
+    #homeClientSection img:hover {
+        transform: scale(1.2);
+    }
+
+
+#homeClientTable button {
+    background-color: #F2F2F2;
+    border: none;
+    background-color: transparent;
+}
+
