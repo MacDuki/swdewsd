@@ -25,7 +25,7 @@ namespace testing_Front.Controllers
                 HttpContext.Session.SetInt32("UserId", oneClient.Id);
                 return RedirectToAction("HomeClient", "Home", new { id = oneClient.Id });
             }
-            catch (Exception )
+            catch (Exception ex)
             {
                 return View("FailureRegister");
             }

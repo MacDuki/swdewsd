@@ -27,19 +27,19 @@ namespace testing_Front.Controllers
 
             if (oneUser != null)
             {
-                HttpContext.Session.SetString("Usuario", inputGmail); // Establecer variable de sesión "Usuario"
+                HttpContext.Session.SetString("Usuario", inputGmail); // Establecer variable de sesión "Usuario" con valor de mail
 
                 if (oneUser is Cliente)
                 {
                     HttpContext.Session.SetString("Rol", "Cliente");
                     HttpContext.Session.SetInt32("UserId", oneUser.Id);
-                    return RedirectToAction("HomeClient", "Home", new { id = oneUser.Id });
+                    return RedirectToAction("HomeClient", "Home");
                 }
                 else
                 {
                     HttpContext.Session.SetString("Rol", "Administrador");
                     HttpContext.Session.SetInt32("UserId", oneUser.Id);
-                    return RedirectToAction("HomeAdm", "Home", new { id = oneUser.Id });
+                    return RedirectToAction("HomeAdm", "Home");
                 }
             }
             else
@@ -54,7 +54,7 @@ namespace testing_Front.Controllers
         {
             HttpContext.Session.Clear();
 
-            return RedirectToAction("index");
+            return RedirectToAction("Index");
         }
     }
 }

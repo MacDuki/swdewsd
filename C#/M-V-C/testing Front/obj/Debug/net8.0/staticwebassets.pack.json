@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\testing Front.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\Assets\\buy.png",
+      "PackagePath": "staticwebassets\\Assets\\buy.png"
+    },
+    {
+      "Id": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\Assets\\check.png",
+      "PackagePath": "staticwebassets\\Assets\\check.png"
+    },
+    {
+      "Id": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\Assets\\closed.png",
+      "PackagePath": "staticwebassets\\Assets\\closed.png"
+    },
+    {
+      "Id": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\Assets\\deal.png",
+      "PackagePath": "staticwebassets\\Assets\\deal.png"
+    },
+    {
+      "Id": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\Assets\\hand.png",
+      "PackagePath": "staticwebassets\\Assets\\hand.png"
+    },
+    {
+      "Id": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\Assets\\wrong.png",
+      "PackagePath": "staticwebassets\\Assets\\wrong.png"
+    },
+    {
       "Id": "C:\\Users\\PCMYA\\OneDrive\\Desktop\\codeProyects\\tests\\C#\\M-V-C\\testing Front\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

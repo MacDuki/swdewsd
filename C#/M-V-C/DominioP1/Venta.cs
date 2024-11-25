@@ -20,35 +20,35 @@ namespace Dominio
             set { _precioVenta = value; }
         }
 
-       
+
         public Venta(string nombre, string tipoPublicacion, bool esOfertaRelampago, float precioVenta)
             : base(nombre, tipoPublicacion)
         {
             EsOfertaRelampago = esOfertaRelampago;
             PrecioVenta = precioVenta;
         }
-		//Constructor precarga
-		public Venta(string nombre, string tipoPublicacion, DateTime fechaPublicacion, DateTime? fechaFinalizacion, bool esOfertaRelampago, float precioVenta)
-	   : base(nombre, tipoPublicacion, fechaPublicacion, fechaFinalizacion)
-		{
-			// Si la fecha de finalización es null, la venta permanece abierta
-			if (fechaFinalizacion == null)
-			{
-				Estado = EstadoPublicacion.ABIERTA;
-			}
-			else
-			{
-				Estado = EstadoPublicacion.CERRADA; 
-			}
-
-			EsOfertaRelampago = esOfertaRelampago;
-			PrecioVenta = precioVenta;
-		}
-
-
-        private void ValidarPrecioVenta() 
+        //Constructor precarga
+        public Venta(string nombre, string tipoPublicacion, DateTime fechaPublicacion, DateTime? fechaFinalizacion, bool esOfertaRelampago, float precioVenta)
+       : base(nombre, tipoPublicacion, fechaPublicacion, fechaFinalizacion)
         {
-            if (PrecioVenta < 0) 
+            // Si la fecha de finalización es null, la venta permanece abierta
+            if (fechaFinalizacion == null)
+            {
+                Estado = EstadoPublicacion.ABIERTA;
+            }
+            else
+            {
+                Estado = EstadoPublicacion.CERRADA;
+            }
+
+            EsOfertaRelampago = esOfertaRelampago;
+            PrecioVenta = precioVenta;
+        }
+
+
+        private void ValidarPrecioVenta()
+        {
+            if (PrecioVenta < 0)
             {
                 throw new Exception("Verifique que el precio de la venta, sea mayor a 0.");
             }
@@ -63,5 +63,21 @@ namespace Dominio
             return PrecioVenta;
         }
 
+
+        public override void CerrarPublicacion(Usuario unUsuario, params object[] parametros)
+        {
+            // En Venta no necesitamos los parámetros adicionales
+            if (Estado == EstadoPublicacion.ABIERTA)
+            {
+                Estado = EstadoPublicacion.CERRADA;
+                FechaFinalizacion = DateTime.Now;
+                UsuarioFinaliza = unUsuario;
+                ClienteComprador = unUsuario as Cliente; 
+            }
+            else
+            {
+                throw new Exception("No se puede finalizar una publicación cerrada.");
+            }
+        }
     }
 }

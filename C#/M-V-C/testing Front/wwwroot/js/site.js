@@ -11,3 +11,6 @@ function syncTableHeader() {
         headerCell.style.width = `${bodyCells[index].offsetWidth}px`;
     });
 }
+
+
+

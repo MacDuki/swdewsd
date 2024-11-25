@@ -4,7 +4,7 @@ using DominioP1;
 namespace Dominio
 
 {
-    public class Publicacion : IValidable, IComparable<Publicacion>
+    public abstract class Publicacion : IValidable, IComparable<Publicacion>
     {
         public enum EstadoPublicacion
         {
@@ -149,26 +149,13 @@ namespace Dominio
 			}
         }
 
-        //MÉTODO PARA CERRAR UNA PUBLICACIÓN. 
-        public virtual void CerrarPublicacion(Usuario unUsuario) 
-        {
-            if (_estado == EstadoPublicacion.ABIERTA)
-            {
-                this.Estado = EstadoPublicacion.CERRADA;
-                this._fechaFinalizacion = DateTime.Now;
-                this._usuarioFinaliza = unUsuario;
+		//MÉTODO PARA CERRAR UNA PUBLICACIÓN. 
+		public abstract void CerrarPublicacion(Usuario unUsuario, params object[] parametros);
 
-            }
-            else 
-            {
-                throw new Exception("No se puede finalizar una publicación cerrada.");             
-            }
-        }
-
-        //MÉTODO COMPARE TO PARA ORDENAR EL LISTADO DE PUBLICACIONES SEGÚN LA FECHA DE PUBLICACIÓN. 
-        public int CompareTo(Publicacion unaPublicacion)
+		//MÉTODO COMPARE TO PARA ORDENAR EL LISTADO DE PUBLICACIONES SEGÚN LA FECHA DE PUBLICACIÓN. 
+		public int CompareTo(Publicacion unaPublicacion)
         {
-            return this.FechaPublicacion.CompareTo(unaPublicacion.FechaPublicacion);
+            return this._fechaPublicacion.CompareTo(unaPublicacion.FechaPublicacion);
         }
 
         // Método para verificar estado. 

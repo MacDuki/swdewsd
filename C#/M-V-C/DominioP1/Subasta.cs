@@ -1,10 +1,9 @@
 ﻿
 using DominioP1;
-using System.Security.Cryptography;
 
 namespace Dominio
 {
-	public class Subasta : Publicacion, IValidable
+	public class Subasta : Publicacion, IValidable, IComparable<Subasta>
 	{
 		private List<Oferta> _listaOfertas;
 		private float _precioInicial;
@@ -17,6 +16,7 @@ namespace Dominio
 		public List<Oferta> ListaOfertas
 		{
 			get { return _listaOfertas; }
+			set { _listaOfertas = value; }
 		}
 
 		public float PrecioInicial
@@ -55,7 +55,7 @@ namespace Dominio
 		}
 
 
-	
+
 
 		// Método para realizar una oferta
 
@@ -100,6 +100,49 @@ namespace Dominio
 		public override bool Equals(object? obj)
 		{
 			return obj is Subasta unaSubasta && unaSubasta.Id == Id;
+		}
+
+		public int CompareTo(Subasta unaSubasta)
+		{
+			return this.FechaPublicacion.CompareTo(unaSubasta.FechaPublicacion);
+		}
+
+		public override void CerrarPublicacion(Usuario unUsuario, params object[] parametros)
+		{
+			if (parametros.Length == 2 && parametros[0] is float mayorOferta && parametros[1] is Cliente clienteOfertador)
+			{
+				if (Estado == EstadoPublicacion.ABIERTA)
+				{
+
+					_precioFinal = mayorOferta;
+					clienteOfertador.SaldoDisponible -= decimal.Parse(mayorOferta.ToString());
+					Estado = EstadoPublicacion.CERRADA;
+					FechaFinalizacion = DateTime.Now;
+					ClienteComprador = clienteOfertador; 
+				}
+				else
+				{
+					throw new Exception("No se puede finalizar una publicación cerrada.");
+				}
+			}
+			else
+			{
+				throw new ArgumentException("Se requieren los parámetros 'mayorOferta' y 'clienteOfertador' para cerrar la subasta.");
+			}
+		}
+
+		//MÉTODO PARA OBTENER EL USUARIO QUE REALIZÓ LA MAYOR OFERTA PARA LA SUBASTA.
+		public int ObtenerIdClienteMayorOferta(float mayorOferta)
+		{
+			foreach (Oferta unaOferta in _listaOfertas)
+			{
+				if (unaOferta.Monto == mayorOferta)
+				{
+					return unaOferta.IdUsuarioOfertador();
+				}
+			}
+
+			return -1;  
 		}
 	}
 }

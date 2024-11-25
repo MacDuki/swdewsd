@@ -1,0 +1,55 @@
+﻿@using DominioP1; 
+
+
+
+<section class="card shadow p-5 " id="operationsResultsSection">
+
+@if (ViewBag.operationLoadMoney != null)
+{    <div class="operationNotificationContainer card shadow p-5 text-center" id="operationNotification">
+       <p class="alert-success">@ViewBag.operationLoadMoney</p>
+     </div>
+	
+   <div class="imgContainer">
+        <img src="~/Assets/check.png"/>
+        </div>
+}
+
+@if(ViewBag.buyOperation != null)
+{
+	 <div class="operationNotificationContainer card shadow p-5 text-center" id="operationNotification">
+             <p class="alert-success">@ViewBag.buyOperation</p>
+        </div>
+         <div class="imgContainer">
+        <img src="~/Assets/check.png"/>
+        </div>
+}
+
+@if(ViewBag.buyOperationError != null)
+    {
+        <div class="operationNotificationContainer card shadow p-5 text-center" id="operationNotification">
+             <p class="alert-danger">@ViewBag.buyOperationError</p>
+        </div>
+        <div class="imgContainer">
+        <img src="~/Assets/wrong.png"/>
+        </div>
+    }
+
+  
+</section>
+
+<script>
+
+
+
+   setTimeout(function() {
+            var baseUrl = window.location.origin;
+            var newUrl = baseUrl + '/Home/HomeClient';
+            window.location.href = newUrl;
+            }, 2000);
+              setTimeout(function() {
+                      document.getElementById("operationNotification").classList.add("fade-out");
+    }, 1500);
+
+    
+
+</script>

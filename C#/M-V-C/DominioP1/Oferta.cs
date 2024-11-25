@@ -64,5 +64,11 @@
 
             }
         }
+
+        //MÉTODO QUE RETORNA EL ID DEL USUARIO QUE REALIZA LA OFERTA.
+        public int IdUsuarioOfertador() 
+        {
+            return UsuarioOfertador.Id; 
+        }
     }
 }

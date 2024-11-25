@@ -1,11 +1,20 @@
 ﻿@using Dominio;
 @model List<Subasta>
 
+@if (ViewBag.Error != null) 
+{
+	<h4 class="alert-danger">@ViewBag.Error</h4>
+}
 
-<h1>Home Administrador</h1>
-<h4>LISTADO DE TODAS LAS SUBASTAS</h4>
+@if(ViewBag.Mensaje != null)
+{
+	<h4 class="alert-success">@ViewBag.Mensaje</h4>
+}
 
-<table class="table table-stripped table-hover text-center">
+
+<h1>LISTADO DE TODAS LAS SUBASTAS</h1>
+<section id="homeAdmSection" class="card shadow p-5 text-center">
+	<table class="table table-stripped table-hover text-center" id="homeAdmTable">
 	<thead>
 		<tr>
 			<th scope="col">NOMBRE</th>
@@ -13,21 +22,38 @@
 			<th scope="col">FECHA DE PUBLICACIÓN</th>
 			<th scope="col">ESTADO</th>
 			<th scope="col">OFERTA MÁS ALTA</th>
-			<th class="" scope="col">CERRAR SUBASTA</th>
+
+			<th scope="col">CERRAR SUBASTA</th>
 		</tr>
 	</thead>
 	<tbody>
-		@foreach (Subasta unaPublicacion in Model)
+		@foreach (Subasta unaSubasta in Model)
 		{
 			<tr>
-				<td>@unaPublicacion.Nombre</td>
-				<td>@unaPublicacion.TipoPublicacion</td>
-				<td>@unaPublicacion.FechaPublicacion</td>
-				<td>@unaPublicacion.Estado</td>
-				<td>@unaPublicacion.PrecioFinal</td>
-				<td><a href='#' class='btn btn-outline-primary btn-sm'><img src='https://i.pinimg.com/564x/37/1d/ed/371dedd5ce48bf243e2c08c5038e20aa.jpg' alt='icono de cierre' class='img-fluid rounded' style='width:40px;height:auto;' /></a></td>
+				<td>@unaSubasta.Nombre</td>
+				<td>@unaSubasta.TipoPublicacion</td>
+				<td>@unaSubasta.FechaPublicacion.ToString("yyyy-MM-dd")</td>
+				<td>@unaSubasta.TipoPublicacion.ToUpper()</td>
+				<td>@unaSubasta.ObtenerMejorOferta().Monto</td>
+					@{
+						if(unaSubasta.Estado == Publicacion.EstadoPublicacion.ABIERTA)
+						{
+							<td>
+								<form asp-controller="Home" asp-action="CerrarSubasta" method="post">
+									<input type="hidden" name="idSubasta" value="@unaSubasta.Id" />
+									<button type="submit"><img src="~/Assets/deal.png" class='img-fluid rounded' style='width:30px;height:auto;' /></button>
+								</form>
+							</td>
+						} else
+						{
+							<td>
+							<p>Ya está cerrada</p>
+							</td>
+						}
+					}
+		
 			</tr>
 		}
 	</tbody>
 </table>
-
+</section>

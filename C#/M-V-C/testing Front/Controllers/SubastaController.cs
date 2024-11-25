@@ -9,7 +9,7 @@ namespace testing_Front.Controllers
 
         public IActionResult ListarSubastas()
         {
-            if (HttpContext.Session.GetString("Usuario") == null) 
+            if (HttpContext.Session.GetString("Usuario") == null || HttpContext.Session.GetString("Rol") != "Administrador") 
             {
                 return Redirect("/LoginEjemplo/LoginUsuario"); 
             }

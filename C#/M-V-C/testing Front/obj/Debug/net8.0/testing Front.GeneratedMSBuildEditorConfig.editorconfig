@@ -26,8 +26,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\PCMYA\OneDrive\Desktop\codeProyects\tests\C#\M-V-C\testing Front
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/CargarSaldo/CargarSaldo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ2FyU2FsZG9cQ2FyZ2FyU2FsZG8uY3NodG1s
+[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/CargarSaldo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ2FyU2FsZG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/ErrorCredentials/Index.cshtml]
@@ -42,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lQ2xpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/Home/OperationResult.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcGVyYXRpb25SZXN1bHQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/Login/ErrorLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRXJyb3JMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,12 +50,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/Publicacion/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGljYWNpb25cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/Publicacion/ListarPublicaciones.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGljYWNpb25cTGlzdGFyUHVibGljYWNpb25lcy5jc2h0bWw=
+[C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/OperationsResults/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1Jlc3VsdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PCMYA/OneDrive/Desktop/codeProyects/tests/C\#/M-V-C/testing Front/Views/Register/FailureRegister.cshtml]

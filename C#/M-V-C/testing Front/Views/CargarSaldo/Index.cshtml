@@ -1,0 +1,22 @@
+﻿@using Dominio;
+
+<h1>CARGA DE SALDO</h1>
+
+<section id="loadMoneySection" class="card shadow p-5 text-center">
+
+
+
+
+
+	@if (ViewBag.Error != null)
+	{
+		<h4 class="alert-danger">@ViewBag.Error</h4>
+	}
+<form asp-action="IncreaseMoney" method="post">
+	<div class="loadMoneyContainer">
+	<input type="text" placeholder="Ingrese el monto ..." name="saldo"/>
+	<button type="submit" value="PROCESAR"> Procesar </button>
+		</div>
+</form>
+
+</section>

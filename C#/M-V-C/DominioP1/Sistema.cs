@@ -110,31 +110,47 @@ public class Sistema
 	}
 	private void PrecargarPublicaciones()
 	{
-		listaPublicaciones.AddRange(new List<Publicacion>
-	{
-		new Venta("Venta de Teclados", "venta", new DateTime(2024, 1, 1), null, true, 69.99f), // Abierta
-		new Venta("Venta de Laptops", "venta", new DateTime(2024, 1, 2), null, false, 1199.99f), // Abierta
-		new Venta("Venta de Sillas", "venta", new DateTime(2024, 1, 3), new DateTime(2024, 1, 12), false, 249.99f), // Cerrada
-		new Venta("Venta de Monitores", "venta", new DateTime(2024, 1, 4), new DateTime(2024, 1, 13), true, 149.99f), // Cerrada
-		new Venta("Venta de Smartphones", "venta", new DateTime(2024, 1, 5), null, false, 699.99f), // Abierta
-		new Venta("Venta de Auriculares", "venta", new DateTime(2024, 1, 6), null, true, 79.99f), // Abierta
-		new Venta("Venta de Impresoras", "venta", new DateTime(2024, 1, 7), new DateTime(2024, 1, 16), false, 129.99f), // Cerrada
-		new Venta("Venta de Cafeteras", "venta", new DateTime(2024, 1, 8), new DateTime(2024, 1, 17), true, 99.99f), // Cerrada
-		new Venta("Venta de Ventiladores", "venta", new DateTime(2024, 1, 9), null, false, 45.99f), // Abierta
-		new Venta("Venta de Licuadoras", "venta", new DateTime(2024, 1, 10), new DateTime(2024, 1, 19), true, 49.99f), // Cerrada
-		new Subasta("Subasta de Bicicletas", "subasta", new DateTime(2024, 1, 1), new DateTime(2024, 1, 10), 100.00f), // Cerrada
-		new Subasta("Subasta de Relojes", "subasta", new DateTime(2024, 1, 2), new DateTime(2024, 1, 11), 200.00f),   // Cerrada
-		new Subasta("Subasta de Teléfonos", "subasta", new DateTime(2024, 1, 3), null, 300.00f), // Abierta
-		new Subasta("Subasta de Televisores", "subasta", new DateTime(2024, 1, 4), null, 400.00f), // Abierta
-		new Subasta("Subasta de Cámaras", "subasta", new DateTime(2024, 1, 5), new DateTime(2024, 1, 14), 500.00f),   // Cerrada
-		new Subasta("Subasta de Libros", "subasta", new DateTime(2024, 1, 6), null, 50.00f), // Abierta
-		new Subasta("Subasta de Ropa", "subasta", new DateTime(2024, 1, 7), new DateTime(2024, 1, 16), 150.00f),      // Cerrada
-		new Subasta("Subasta de Juguetes", "subasta", new DateTime(2024, 1, 8), null, 75.00f), // Abierta
-		new Subasta("Subasta de Muebles", "subasta", new DateTime(2024, 1, 9), null, 600.00f), // Abierta
-		new Subasta("Subasta de Computadoras", "subasta", new DateTime(2024, 1, 10), null, 700.00f) // Abierta
+        listaPublicaciones.AddRange(new List<Publicacion>
+    {
+        new Venta("Venta de Teclados", "venta", new DateTime(2024, 1, 1), null, true, 69.99f), // Abierta
+        new Venta("Venta de Laptops", "venta", new DateTime(2024, 1, 2), null, false, 1199.99f), // Abierta
+        new Venta("Venta de Sillas", "venta", new DateTime(2024, 1, 3), new DateTime(2024, 1, 12), false, 249.99f), // Cerrada
+        new Venta("Venta de Monitores", "venta", new DateTime(2024, 1, 4), new DateTime(2024, 1, 13), true, 149.99f), // Cerrada
+        new Venta("Venta de Smartphones", "venta", new DateTime(2024, 1, 5), null, false, 699.99f), // Abierta
+        new Venta("Venta de Auriculares", "venta", new DateTime(2024, 1, 6), null, true, 79.99f), // Abierta
+        new Venta("Venta de Impresoras", "venta", new DateTime(2024, 1, 7), new DateTime(2024, 1, 16), false, 129.99f), // Cerrada
+        new Venta("Venta de Cafeteras", "venta", new DateTime(2024, 1, 8), new DateTime(2024, 1, 17), true, 99.99f), // Cerrada
+        new Venta("Venta de Ventiladores", "venta", new DateTime(2024, 1, 9), null, false, 45.99f), // Abierta
+        new Venta("Venta de Licuadoras", "venta", new DateTime(2024, 1, 10), new DateTime(2024, 1, 19), true, 49.99f), // Cerrada
+        // Subastas con ofertas precargadas
+        new Subasta("Subasta de Bicicletas", "subasta", new DateTime(2024, 1, 1), new DateTime(2024, 1, 10), 100.00f) // Cerrada
+        {
+            // Ofertas precargadas
+            ListaOfertas = new List<Oferta>
+            {
+                new Oferta((Cliente)listaUsuario[6], 120.00f, new DateTime(2024, 1, 2)), // Oferta de Pedro
+                new Oferta((Cliente) listaUsuario[4], 130.00f, new DateTime(2024, 1, 3)), // Oferta de Ana
+            }
+        },
+        new Subasta("Subasta de Relojes", "subasta", new DateTime(2024, 1, 2), new DateTime(2024, 1, 11), 200.00f)   // Cerrada
+        {
+            ListaOfertas = new List<Oferta>
+            {
+                new Oferta((Cliente) listaUsuario[5], 220.00f, new DateTime(2024, 1, 3)), // Oferta de Carlos
+                new Oferta((Cliente)listaUsuario[4], 230.00f, new DateTime(2024, 1, 4)), // Oferta de Lucia
+            }
+        },
+        new Subasta("Subasta de Teléfonos", "subasta", new DateTime(2024, 1, 3), null, 300.00f) // Abierta
+        {
+           ListaOfertas = new List<Oferta>
+            {
+                new Oferta((Cliente) listaUsuario[7], 350.00f, new DateTime(2024, 1, 4)), // Oferta de Juan
+            }
+        },
+   
+    });
 
-
-	});
+ 
 		foreach (var publicacion in listaPublicaciones)
 		{
 			publicacion.ActualizarEstado(); 
@@ -143,10 +159,12 @@ public class Sistema
 	}
 	public void PrecargaDeDatos()
 	{
-		PrecargarPublicaciones();
-		PrecargarArticulos();
-		PrecargarAdministradores();
-		PrecargarClientes();
+        PrecargarAdministradores();
+        PrecargarClientes();
+        PrecargarArticulos();
+        PrecargarPublicaciones();
+	
+	
 
 	}
 
@@ -225,7 +243,7 @@ public class Sistema
 
 		if (listaPublicaciones.Count == 0) 
 		{
-			throw new Exception("No existen publicaciones"); 
+			throw new Exception("No existen publicaciones."); 
 		}
 		return listaPublicaciones;
 	}
@@ -241,6 +259,12 @@ public class Sistema
 			{
 				listaSubastas.Add(subasta);
 			}
+		}
+
+		listaSubastas.Sort();
+		if (listaSubastas.Count == 0) 
+		{
+			throw new Exception("No existen subastas.");
 		}
 
 		return listaSubastas;
@@ -441,6 +465,56 @@ public class Sistema
 		}
 	}
 
+	//MÉTODO PARA OBTENER LA SUBASTA MEDIANTE EL ID. 
+	public Subasta? ObtenerSubastaPorId(int idSubasta) 
+	{
+		foreach (Publicacion unaPublicacion in listaPublicaciones) 
+		{
+			if (unaPublicacion is Subasta) 
+			{
+				if (unaPublicacion.Id == idSubasta) 
+				{
+					return unaPublicacion as Subasta; 
+				}
+			}
+		}
+
+		return null; 
+	}
+
+	//MÉTODO PARA OBTENER EL CLIENTE SEGÚN EL ID. 
+	public Cliente? ObtenerClientePorId(int idCliente)
+	{
+		foreach (Usuario unUsuario in listaUsuario) 
+		{
+			if (unUsuario is Cliente) 
+			{
+				if (unUsuario.Id == idCliente) 
+				{
+					return unUsuario as Cliente; 
+				}
+			}
+		}
+
+		return null; 
+	}
+
+	//MÉTODO PARA OBTENER EL ADMINISTRADOR SEGÚN EL ID. 
+	public Administrador? ObtenerAdministradorPorId(int ? idAdministrador) 
+	{
+		foreach(Usuario unUsuario in listaUsuario) 
+		{
+			if (unUsuario is Administrador) 
+			{
+				if (unUsuario.Id == idAdministrador) 
+				{
+					return unUsuario as Administrador; 
+				}
+			}
+		}
+
+		return null; 
+	}
 
 }
 
