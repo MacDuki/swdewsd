@@ -24,6 +24,7 @@
         </div>
 }
 
+
 @if(ViewBag.buyOperationError != null)
     {
         <div class="operationNotificationContainer card shadow p-5 text-center" id="operationNotification">
@@ -31,6 +32,27 @@
         </div>
         <div class="imgContainer">
         <img src="~/Assets/wrong.png"/>
+        </div>
+    }
+
+    @if (ViewBag.offerValue != null && ViewBag.offerSuccess != null)
+    {
+        <div class="operationNotificationContainer card shadow p-5 text-center" id="operationNotification">
+            <p class="alert-success">@ViewBag.offerSuccess</p>
+        </div>
+        <div class="imgContainer">
+            <img src="~/Assets/check.png" />
+        </div>
+    }
+
+
+    @if (ViewBag.offerError!= null)
+    {
+        <div class="operationNotificationContainer card shadow p-5 text-center" id="operationNotification">
+            <p class="alert-danger">@ViewBag.offerError</p>
+        </div>
+        <div class="imgContainer">
+            <img src="~/Assets/wrong.png" />
         </div>
     }
 

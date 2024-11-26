@@ -58,7 +58,31 @@ namespace testing_Front.Controllers
             return RedirectToAction("Index", "OperationsResults");
       
         }
-      
+
+        [HttpPost]
+        public IActionResult RealizeOffer(int idPublicacion, float monto)
+        {
+            int? idCliente = HttpContext.Session.GetInt32("UserId");
+
+
+            try
+            {
+                Subasta? unaSubasta = system.ObtenerSubastaPorId(idPublicacion);
+                Cliente? obtenerCliente = system.ObtenerClientePorId(idCliente);
+                system.ProcesarOferta(obtenerCliente, unaSubasta, monto);
+
+				HttpContext.Session.SetString("OfferSuccess", "La oferta ha sido realizada exitosamente."); 
+
+                HttpContext.Session.SetString("OfferValue", monto.ToString());
+            }
+            catch (Exception ex)
+            {
+                HttpContext.Session.SetString("OfferError", ex.Message);
+            }
+
+            return RedirectToAction("Index", "OperationsResults");
+        }
+
         public IActionResult HomeAdm()
 		{
             Usuario? oneUser = null;
@@ -83,6 +107,8 @@ namespace testing_Front.Controllers
 				return RedirectToAction("Index", "ErrorCredentials");
 			}
 		}
+
+	
 
 		[HttpPost]
 		public IActionResult CerrarSubasta(int idSubasta)

@@ -2,6 +2,8 @@
 @model List<Publicacion>
 <h1>LISTADO DE TODAS LAS PUBLICACIONES</h1>
 
+
+
 <section id="homeClientSection" class="card shadow p-5 text-center">
 
     @if (Model != null)
@@ -48,7 +50,7 @@
                         <td>
                             @if (unaPublicacion is Venta venta)
                             {
-                                @venta.PrecioVenta.ToString("C")
+                                @venta.ObtenerPrecio().ToString("F2")
                             }
                             else if (unaPublicacion is Subasta subasta)
                             {
@@ -67,6 +69,7 @@
                                 @if (unaPublicacion is Subasta && unaPublicacion.Estado == Publicacion.EstadoPublicacion.ABIERTA)
                                 {
                                     <input type="hidden" name="idPublicacion" value="@unaPublicacion.Id" />
+                                    <input type ="text" name="Monto" style="border-radius: 20px;"/>
                                     <button type="submit"><img src="~/Assets/hand.png" alt="icono de Oferta" class="img-fluid rounded" style="width:30px;height:auto;" /></button>
                                 }
                             </form>

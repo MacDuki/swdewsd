@@ -27,6 +27,7 @@ namespace testing_Front.Controllers
             }
             catch (Exception ex)
             {
+                ViewBag.Error = ex.Message; 
                 return View("FailureRegister");
             }
 

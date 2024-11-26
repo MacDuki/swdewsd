@@ -1,60 +1,69 @@
-using Microsoft.AspNetCore.Mvc;
 using Dominio;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using Microsoft.AspNetCore.Mvc;
 namespace testing_Front.Controllers
 {
 
-    public class LoginController : Controller
-    {
-        Sistema system = Sistema.Instancia;
+	public class LoginController : Controller
+	{
+		Sistema system = Sistema.Instancia;
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-        public IActionResult ErrorLogin()
-        {
+		public IActionResult Index()
+		{
+			return View();
+		}
+		public IActionResult ErrorLogin()
+		{
 
-            return View();
-        }
+			return View();
+		}
 
-        [HttpPost]
-        public IActionResult CheckClient(string inputGmail, string inputPass)
-        {
-            // Precarga de datos inicial y única.
-            system.PrecargaDeDatos();
-            Usuario? oneUser = system.ObtenerUsuario(inputGmail, inputPass);
+		[HttpPost]
+		public IActionResult CheckClient(string inputGmail, string inputPass)
+		{
+			// Precarga de datos inicial y única.
+			system.PrecargaDeDatos();
 
-            if (oneUser != null)
-            {
-                HttpContext.Session.SetString("Usuario", inputGmail); // Establecer variable de sesión "Usuario" con valor de mail
+			try
+			{
+				Usuario? oneUser = system.ObtenerUsuario(inputGmail, inputPass);
 
-                if (oneUser is Cliente)
-                {
-                    HttpContext.Session.SetString("Rol", "Cliente");
-                    HttpContext.Session.SetInt32("UserId", oneUser.Id);
-                    return RedirectToAction("HomeClient", "Home");
-                }
-                else
-                {
-                    HttpContext.Session.SetString("Rol", "Administrador");
-                    HttpContext.Session.SetInt32("UserId", oneUser.Id);
-                    return RedirectToAction("HomeAdm", "Home");
-                }
-            }
-            else
-            {
-                ViewBag.Mensaje = "Credenciales incorrectas. No existe un usuario con los datos ingresados.";
-                return RedirectToAction("ErrorLogin", "Login");
-            }
-        }
+				if (oneUser != null)
+				{
+					HttpContext.Session.SetString("Usuario", inputGmail); // Establecer variable de sesión "Usuario" con valor de mail
+
+					if (oneUser is Cliente)
+					{
+						HttpContext.Session.SetString("Rol", "Cliente");
+						HttpContext.Session.SetInt32("UserId", oneUser.Id);
+						return RedirectToAction("HomeClient", "Home");
+					}
+					else
+					{
+						HttpContext.Session.SetString("Rol", "Administrador");
+						HttpContext.Session.SetInt32("UserId", oneUser.Id);
+						return RedirectToAction("HomeAdm", "Home");
+					}
+				}
+				else
+				{
+					ViewBag.ErrorMessageLogin = "Credenciales incorrectas. No existe un usuario con los datos ingresados.";
+					return View("ErrorLogin");
+				}
+			}
+			catch (Exception ex)
+			{
+				ViewBag.ErrorMessageLogin = ex.Message;
+				return View("ErrorLogin");
+
+			}
+		}
 
 
-        public IActionResult Logout()
-        {
-            HttpContext.Session.Clear();
+		public IActionResult Logout()
+		{
+			HttpContext.Session.Clear();
 
-            return RedirectToAction("Index");
-        }
-    }
+			return RedirectToAction("Index");
+		}
+	}
 }

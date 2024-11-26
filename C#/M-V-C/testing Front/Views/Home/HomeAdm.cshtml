@@ -31,9 +31,9 @@
 		{
 			<tr>
 				<td>@unaSubasta.Nombre</td>
-				<td>@unaSubasta.TipoPublicacion</td>
+					<td>@unaSubasta.TipoPublicacion.ToUpper()</td>
 				<td>@unaSubasta.FechaPublicacion.ToString("yyyy-MM-dd")</td>
-				<td>@unaSubasta.TipoPublicacion.ToUpper()</td>
+				<td>@unaSubasta.Estado</td>
 				<td>@unaSubasta.ObtenerMejorOferta().Monto</td>
 					@{
 						if(unaSubasta.Estado == Publicacion.EstadoPublicacion.ABIERTA)

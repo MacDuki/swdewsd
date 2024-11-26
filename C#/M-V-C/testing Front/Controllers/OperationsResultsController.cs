@@ -25,7 +25,31 @@ namespace testing_Front.Controllers
             }
 
             // Success for buying
-            
+
+
+            //Case of the method "RealizeOffer"...
+
+
+            string? offerValue = HttpContext.Session.GetString("OfferValue");
+            string? offerSuccess = HttpContext.Session.GetString("OfferSuccess");
+            string? offerError = HttpContext.Session.GetString("OfferError");
+
+            if (!string.IsNullOrEmpty(offerValue) && !string.IsNullOrEmpty(offerSuccess))
+            {
+                ViewBag.offerValue = offerValue;
+                ViewBag.offerSuccess = offerSuccess;
+
+                HttpContext.Session.SetString("OfferValue", "");
+                HttpContext.Session.SetString("OfferSuccess", ""); 
+            }
+
+            if (!string.IsNullOrEmpty(offerError)) 
+            {
+                ViewBag.offerError = offerError;
+                HttpContext.Session.SetString("OfferError", ""); 
+            }
+
+
             return View();
         }
     }
